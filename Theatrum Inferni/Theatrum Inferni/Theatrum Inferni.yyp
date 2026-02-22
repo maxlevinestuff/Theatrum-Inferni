@@ -38,7 +38,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2023.11.1.129",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Theatrum Inferni",
   "resources":[
@@ -55,6 +55,7 @@
     {"id":{"name":"obj_endButton","path":"objects/obj_endButton/obj_endButton.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
+    {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},},
     {"id":{"name":"obj_hpManaBar","path":"objects/obj_hpManaBar/obj_hpManaBar.yy",},},
     {"id":{"name":"obj_incrementClock","path":"objects/obj_incrementClock/obj_incrementClock.yy",},},
     {"id":{"name":"obj_lava","path":"objects/obj_lava/obj_lava.yy",},},
@@ -80,6 +81,7 @@
     {"id":{"name":"scr_player","path":"scripts/scr_player/scr_player.yy",},},
     {"id":{"name":"scr_tile","path":"scripts/scr_tile/scr_tile.yy",},},
     {"id":{"name":"sha_fade","path":"shaders/sha_fade/sha_fade.yy",},},
+    {"id":{"name":"Fireball","path":"sprites/Fireball/Fireball.yy",},},
     {"id":{"name":"spr_cardBack","path":"sprites/spr_cardBack/spr_cardBack.yy",},},
     {"id":{"name":"spr_cards","path":"sprites/spr_cards/spr_cards.yy",},},
     {"id":{"name":"spr_clock","path":"sprites/spr_clock/spr_clock.yy",},},
@@ -102,6 +104,7 @@
     {"id":{"name":"spr_titleBackground","path":"sprites/spr_titleBackground/spr_titleBackground.yy",},},
     {"id":{"name":"spr_turnCounter","path":"sprites/spr_turnCounter/spr_turnCounter.yy",},},
     {"id":{"name":"spr_turnSelect","path":"sprites/spr_turnSelect/spr_turnSelect.yy",},},
+    {"id":{"name":"Sprite39","path":"sprites/Sprite39/Sprite39.yy",},},
     {"id":{"name":"Yin_Fragment_Attack","path":"sprites/Yin_Fragment_Attack/Yin_Fragment_Attack.yy",},},
     {"id":{"name":"Yin_Fragment_Idle","path":"sprites/Yin_Fragment_Idle/Yin_Fragment_Idle.yy",},},
     {"id":{"name":"Yin_Fragment_Move_Down","path":"sprites/Yin_Fragment_Move_Down/Yin_Fragment_Move_Down.yy",},},
