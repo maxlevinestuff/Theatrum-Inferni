@@ -216,6 +216,17 @@ function get_next_action(){
 				moveCost: 1,
 				manaCost: 0
 			}
+		case obj_fireball:
+			var goalX = 12 * 16;
+			var goalY = y;
+			
+			return {
+			    type: ActionType.move,
+			    parms: [goalX, goalY],
+			    moveCost: 1,
+			    manaCost: 0
+			};
+			
 			
 	}
 }
@@ -540,6 +551,10 @@ function do_individual_damage_intersection(elm1, elm2) {
 			break
 		case obj_lava:
 			subtract_health(elm2,1)
+			break
+		case obj_fireball:
+			subtract_health(elm2,1)
+			subtract_health(elm1,1)
 			break
 	}
 }
